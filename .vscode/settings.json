@@ -1,0 +1,20 @@
+{
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "path": "zsh",
+      "args": [
+        "-l"
+      ]
+    },
+    "conda": {
+      "path": "zsh",
+      "args": [
+        "-l",
+        "-i",
+        "-c",
+        "source /opt/miniconda3/etc/profile.d/conda.sh; conda activate mlx-learn; exec zsh"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "conda"
+}

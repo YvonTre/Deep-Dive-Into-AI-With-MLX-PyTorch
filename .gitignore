@@ -16,7 +16,6 @@ adapters_working.npz
 
 # Development environments
 .idea/
-.vscode/
 *.code-workspace
 .history/
 *.sublime-*
@@ -24,7 +23,6 @@ adapters_working.npz
 .eclipse/
 
 # Cursor specific
-.cursorrules
 **/scratchpad/
 **/scratchpad.*
 **/maintenance/
